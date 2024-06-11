@@ -143,7 +143,7 @@ footer .copy {
   }
   .sec2 {
     background-image: url(../images/pc/pc_02.png);
-    height: 1614px;
+    height: 1267px;
   }
   .sec2 .shiny-btn {
     border-radius: 18px;
@@ -151,24 +151,24 @@ footer .copy {
     margin: 0 0 0 auto;
   }
   .sec2 .cv_area:nth-child(1) {
-    top: 438px;
+    top: 424px;
     right: 0;
   }
   .sec2 .cv_area:nth-child(2) {
-    top: 768px;
+    top: 678px;
     right: 0;
   }
   .sec2 .cv_area:nth-child(3) {
-    top: 1016px;
+    top: 928px;
     right: 0;
   }
-  .sec2 .cv_area:nth-child(4) {
+  /* .sec2 .cv_area:nth-child(4) {
     top: 1273px;
     right: 0;
-  }
+  } */
   .sec2_2 {
     background-image: url(../images/pc/pc_02_02.png);
-    height: 2118px;
+    height: 1870px;
   }
   .sec2_2 .shiny-btn {
     border-radius: 18px;
@@ -181,25 +181,25 @@ footer .copy {
   }
   .sec3 {
     background-image: url(../images/pc/pc_03.png);
-    height: 1107px;
+    height: 976px;
   }
   .sec3 .shiny-btn {
     border-radius: 18px;
   }
   .sec3 .cv_area {
     right: 20px;
-    bottom: 120px;
+    bottom: 170px;
   }
   .sec4 {
     background-image: url(../images/pc/pc_04.png);
-    height: 1072px;
+    height: 1070px;
   }
   .sec4 .shiny-btn {
     border-radius: 18px;
   }
   .sec4 .cv_area {
     right: 56px;
-    bottom: 130px;
+    bottom: 120px;
   }
   .sec5 {
     background-image: url(../images/pc/pc_05.png);
@@ -207,7 +207,7 @@ footer .copy {
   }
   .sec6 {
     background-image: url(../images/pc/pc_06.png);
-    height: 962px;
+    height: 961px;
   }
   .sec7 {
     background-image: url(../images/pc/pc_07.png);
@@ -219,7 +219,7 @@ footer .copy {
   }
   .sec9 {
     background-image: url(../images/pc/pc_09.png);
-    height: 1238px;
+    height: 1174px;
   }
   .sec10 {
     background-image: url(../images/pc/pc_10.png);
@@ -345,7 +345,7 @@ footer .copy {
   }
   .sec34 {
     background-image: url(../images/pc/pc_34.png);
-    height: 2106px;
+    height: 2005px;
   }
   .sec35 {
     background-image: url(../images/pc/pc_35.png);
@@ -357,7 +357,7 @@ footer .copy {
   }
   .sec36 {
     background-image: url(../images/pc/pc_36.png);
-    height: 1842px;
+    height: 1867px;
   }
   .sec37 {
     height: 300px;
@@ -463,11 +463,11 @@ h1.vnts-cal-tit {
 }
 .tb-sec4 {
     background-image: url(../images/pc/pc-tb-sec_04.png);
-    height: 590px;
+    height: 588px;
 }
 .tb-sec4_2 {
     background-image: url(../images/pc/pc-tb-sec_04_02.png);
-    height: 2306px;
+    height: 2134px;
 }
 .tb-sec4_3 {
   background-image: url(../images/pc/pc-tb-sec_04_03.png);
@@ -666,24 +666,26 @@ input.ipt-type[type=checkbox] {
     border-radius: 50px;
   }
   .sec2 .cv_area:nth-child(1) {
-    top: 30%;
+    top: 36%;
   }
   .sec2 .cv_area:nth-child(2) {
-    top: 51.3%;
+    top: 62%;
   }
   .sec2 .cv_area:nth-child(3) {
-    top: 70.8%;
+    top: 89%;
   }
-  .sec2 .cv_area:nth-child(4) {
+  /* .sec2 .cv_area:nth-child(4) {
     top: 91%;
-  }
+  } */
   .sec3 .shiny-btn,
   .sec4 .shiny-btn {
     border-radius: 50px;
   }
-  .sec3 .cv_area,
+  .sec3 .cv_area {
+    bottom: 5%;
+  }
   .sec4 .cv_area {
-    bottom: 3%;
+    bottom: 4%;
   }
   .sec13 .plan .cv_area:nth-child(1), .sec14 .plan .cv_area:nth-child(1) {
     bottom: 23%;
