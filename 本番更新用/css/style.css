@@ -1,0 +1,1328 @@
+@charset "UTF-8";
+a {
+  cursor: pointer;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+a,
+p,
+.copy,
+.faq_container {
+  font-family: "ヒラギノ明朝 ProN W3", "HiraMinProN-W3", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  border-left: 8px solid #424344;
+  padding-left: 8px;
+}
+
+ul {
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+
+.cl {
+  color: #870000;
+}
+
+footer {
+  background-color: #ea5413;
+  color: #ffff;
+  max-width: 2000px;
+  margin: auto;
+  font-size: 14px;
+}
+
+footer .inr {
+  padding: 50px 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .inr .ft_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: auto;
+}
+
+footer .inr .ft_right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: auto;
+}
+
+footer .inr .ft_right ul li {
+  margin-right: 40px;
+}
+
+footer .copy {
+  background-color: #000;
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+}
+/**/
+.tb-tit-midori {
+    color: #8CC721;
+}
+.tb-tit-orange {
+    color: #D45400;
+}
+.tb-tit-shiro {
+    color: #5E8904;
+}
+.tb-tit-aka {
+    color: #B70003;
+}
+.tb-tit-muji {
+    color: #FFFFFF;
+}
+.sec_bn1 {
+    width: 1200px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+
+@media only screen and (min-width: 961px) {
+  .sp {
+    display: none;
+  }
+  .inr {
+    position: relative;
+    margin: auto;
+    height: 100%;
+    max-width: 960px;
+  }
+  .qa_inr {
+    position: relative;
+    margin: auto;
+    height: 100%;
+    max-width: 1050px;
+  }
+  .cv_area {
+    position: absolute;
+    bottom: 18%;
+    margin: auto;
+    right: 0;
+  }
+  .bg {
+    margin: auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+  .multiple_plan {
+    right: -10px;
+    bottom: 130px;
+  }
+  .plan .cv_area:nth-child(1) {
+    bottom: 115px;
+    left: 40px;
+  }
+  .plan .cv_area:nth-child(2) {
+    bottom: 115px;
+    right: 40px;
+  }
+  .sec1 {
+    background-image: url(../images/pc/pc_01.png);
+    height: 803px;
+  }
+  .sec2 {
+    background-image: url(../images/pc/pc_02.png);
+    height: 1614px;
+  }
+  .sec2 .shiny-btn {
+    border-radius: 18px;
+    width: 80%;
+    margin: 0 0 0 auto;
+  }
+  .sec2 .cv_area:nth-child(1) {
+    top: 438px;
+    right: 0;
+  }
+  .sec2 .cv_area:nth-child(2) {
+    top: 768px;
+    right: 0;
+  }
+  .sec2 .cv_area:nth-child(3) {
+    top: 1016px;
+    right: 0;
+  }
+  .sec2 .cv_area:nth-child(4) {
+    top: 1273px;
+    right: 0;
+  }
+  .sec2_2 {
+    background-image: url(../images/pc/pc_02_02.png);
+    height: 2118px;
+  }
+  .sec2_2 .shiny-btn {
+    border-radius: 18px;
+    width: 80%;
+    margin: 0 0 0 auto;
+  }
+  .sec2_2 .cv_area:nth-child(1) {
+    top: 438px;
+    right: 0;
+  }
+  .sec3 {
+    background-image: url(../images/pc/pc_03.png);
+    height: 1107px;
+  }
+  .sec3 .shiny-btn {
+    border-radius: 18px;
+  }
+  .sec3 .cv_area {
+    right: 20px;
+    bottom: 120px;
+  }
+  .sec4 {
+    background-image: url(../images/pc/pc_04.png);
+    height: 1072px;
+  }
+  .sec4 .shiny-btn {
+    border-radius: 18px;
+  }
+  .sec4 .cv_area {
+    right: 56px;
+    bottom: 130px;
+  }
+  .sec5 {
+    background-image: url(../images/pc/pc_05.png);
+    height: 747px;
+  }
+  .sec6 {
+    background-image: url(../images/pc/pc_06.png);
+    height: 962px;
+  }
+  .sec7 {
+    background-image: url(../images/pc/pc_07.png);
+    height: 925px;
+  }
+  .sec8 {
+    background-image: url(../images/pc/pc_08.png);
+    height: 902px;
+  }
+  .sec9 {
+    background-image: url(../images/pc/pc_09.png);
+    height: 1238px;
+  }
+  .sec10 {
+    background-image: url(../images/pc/pc_10.png);
+    height: 420px;
+  }
+  .sec11 {
+    background-image: url(../images/pc/pc_11.png);
+    height: 1190px;
+  }
+  .sec12 {
+    background-image: url(../images/pc/pc_12.png);
+    height: 829px;
+  }
+  .sec13 {
+    background-image: url(../images/pc/pc_13.png);
+    height: 863px;
+  }
+  .sec13 .cv_area:nth-child(1),
+  .sec13 .cv_area:nth-child(2) {
+    bottom: 125px;
+  }
+  .sec14 {
+    background-image: url(../images/pc/pc_14.png);
+    height: 875px;
+  }
+  .sec14 .cv_area:nth-child(1),
+  .sec14 .cv_area:nth-child(2) {
+    bottom: 155px;
+  }
+  .sec15 {
+    background-image: url(../images/pc/pc_15.png);
+    height: 1284px;
+  }
+  .sec16 {
+    background-image: url(../images/pc/pc_16.png);
+    height: 945px;
+  }
+  .sec16 .cv_area:nth-child(1),
+  .sec16 .cv_area:nth-child(2) {
+    bottom: 125px;
+  }
+  .sec17 {
+    background-image: url(../images/pc/pc_17.png);
+    height: 943px;
+  }
+  .sec18 {
+    background-image: url(../images/pc/pc_18.png);
+    height: 959px;
+  }
+  .sec19 {
+    background-image: url(../images/pc/pc_19.png);
+    height: 952px;
+  }
+  .sec20 {
+    background-image: url(../images/pc/pc_20.png);
+    height: 934px;
+  }
+  .sec21 {
+    background-image: url(../images/pc/pc_21.png);
+    height: 1043px;
+  }
+  .sec21 .cv_area:nth-child(1),
+  .sec21 .cv_area:nth-child(2) {
+    bottom: 185px;
+  }
+  .sec22 {
+    background-image: url(../images/pc/pc_22.png);
+    height: 1587px;
+  }
+  .sec22 .multiple_plan {
+    bottom: 140px;
+  }
+  .sec23 {
+    background-image: url(../images/pc/pc_23.png);
+    height: 648px;
+  }
+  .sec24 {
+    background-image: url(../images/pc/pc_24.png);
+    height: 681px;
+  }
+  .sec25 {
+    background-image: url(../images/pc/pc_25.png);
+    height: 683px;
+  }
+  .sec26 {
+    background-image: url(../images/pc/pc_26.png);
+    height: 688px;
+  }
+  .sec27 {
+    background-image: url(../images/pc/pc_27.png);
+    height: 689px;
+  }
+  .sec28 {
+    background-image: url(../images/pc/pc_28.png);
+    height: 586px;
+  }
+  .sec29 {
+    background-image: url(../images/pc/pc_29.png);
+    height: 909px;
+  }
+  .sec30 {
+    background-image: url(../images/pc/pc_30.png);
+    height: 1402px;
+  }
+  .sec30 .cv_area:nth-child(1),
+  .sec30 .cv_area:nth-child(2) {
+    bottom: 125px;
+  }
+  .sec31 {
+    background-image: url(../images/pc/pc_31.png);
+    height: 1072px;
+  }
+  .sec31 .shiny-btn {
+    border-radius: 40px;
+  }
+  .sec32 {
+    background-image: url(../images/pc/pc_32.png);
+    height: 1328px;
+  }
+  .sec33 {
+    background-image: url(../images/pc/pc_33.png);
+    height: 1110px;
+  }
+  .sec34 {
+    background-image: url(../images/pc/pc_34.png);
+    height: 2106px;
+  }
+  .sec35 {
+    background-image: url(../images/pc/pc_35.png);
+    height: 725px;
+  }
+  .sec35 .cv_area {
+    bottom: 12%;
+    right: 3%;
+  }
+  .sec36 {
+    background-image: url(../images/pc/pc_36.png);
+    height: 1842px;
+  }
+  .sec37 {
+    height: 300px;
+  }
+  .sec37 .cv_area {
+    bottom: 20%;
+  }
+  .sec38 {
+    background-image: url(../images/pc/pc_38.png);
+    height: 598px;
+    margin-bottom: 316px;
+  }
+  .sec2000off {
+    background-image: url("../images/pc/pc_2000off.png");
+    height: 361px;
+  }
+
+
+/*カレンダー*/
+table.vnts-cal {
+  font-size: 0.8rem;
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  margin-top: 30px;
+  border-collapse: collapse;
+}
+
+table.vnts-cal th, table.vnts-cal td {
+  border: solid 1px;
+  padding: 10px;
+}
+
+table.vnts-cal th img {
+  width: 120px;
+  height: 50px;
+}
+
+th.cal-cat-title {
+  background-color: #add8e6;
+}
+
+.holiday {
+  color: #FF0004;
+}
+
+.vnts-c {
+  background-color: #f5deb3;
+}
+
+h2.vnts-cal-tit {
+  text-align: center;
+  font-size: 1rem;
+}
+
+h1.vnts-cal-tit {
+  text-align: center;
+  font-size: 1.5rem;
+  color: red;
+}
+
+.cal-ft-btn {
+  text-align: center;
+  margin: 40px;
+}
+
+ input.buy-btn {
+  font-size: 2rem;
+ }
+    
+.buy-btn {
+  margin: 0 auto;
+  width: 800px;
+  text-align: center;
+  background-color: #b22222;
+  padding: 20px 20px;
+  color: #FFF;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.buy-btn a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/*まとめ買いテーブル調整ここから*/
+.tb-sec0 {
+    background-image: url(../images/pc/pc-tb-sec_00.png);
+    height: 1070px;
+}
+.tb-sec1 {
+    background-image: url(../images/pc/pc-tb-sec_01.png);
+    height: 1127px;
+}
+.tb-sec2 {
+    background-image: url(../images/pc/pc-tb-sec_02.png);
+    height: 1094px;
+}
+.tb-sec3 {
+    background-image: url(../images/pc/pc-tb-sec_03.png);
+    height: 1406px;
+}
+.tb-sec4 {
+    background-image: url(../images/pc/pc-tb-sec_04.png);
+    height: 590px;
+}
+.tb-sec4_2 {
+    background-image: url(../images/pc/pc-tb-sec_04_02.png);
+    height: 2306px;
+}
+.tb-sec4_3 {
+  background-image: url(../images/pc/pc-tb-sec_04_03.png);
+  height: 398px;
+  position: relative;
+}
+.tb-sec4_3 .cv_area_flx {
+  position: absolute;
+  top: 54%;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  column-gap: 60px;
+  width: 100%;
+}
+.tb-sec4_3 .cv_area_flx img {
+  width: 495px;
+}
+.okonomi-tit {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 800;
+}
+.tb-tit {
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding-bottom: 5px;
+}
+.cal-1 {
+    width: 120px;
+}
+.cal-2 {
+    width: 600px;
+}
+ul.flag-list {
+    list-style: none;
+}
+li.flag-tit {
+    font-size: 1rem;
+    padding-left: 40px;
+    line-height: 1.6rem;
+}
+li.step0-tit {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    padding-bottom: 10px;
+}
+li.flag-newzealand {
+    background: url("../images/flag/newzealand.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-japan {
+    background: url("../images/flag/japan.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-france {
+    background: url("../images/flag/france.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-america {
+    background: url("../images/flag/america.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-australia {
+    background: url("../images/flag/australia.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-germany {
+    background: url("../images/flag/germany.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-chile {
+    background: url("../images/flag/chile.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-argentina {
+    background: url("../images/flag/argentina.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-austria {
+    background: url("../images/flag/austria.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-southafrica {
+    background: url("../images/flag/southafrica.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-italy {
+    background: url("../images/flag/italy.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-spain {
+    background: url("../images/flag/spain.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+.cal-linethrough {
+    text-decoration: line-through;
+}
+/*まとめ買いチェックボックスサイズ調整*/
+input.ipt-type[type=checkbox] {
+    transform: scale(1.6);
+    margin: 0px 5px 2px 0px;
+}
+.ipn-con {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.ipn-con-step0 {
+    font-size: 1.2rem;
+    line-height: 2rem;
+    margin-bottom: 15px;
+    margin-left: 10px;
+}
+/*まとめ買いテーブル調整ここまで*/
+
+/*その他*/
+.caution-con {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+.caution-con img {
+    width: 28px;
+}
+.caution-con2 p {
+    text-align: center;
+    font-size: 1.4rem;
+}
+.cal-sec1 {
+    /*background-color: #8CC721;*/
+    background-color: #FFFFFF;
+}
+.cal-sec2 {
+    /*background-color: #FCB72E;*/
+    background-color: #FFFFFF;
+}
+.cal-sec3 {
+    /*background-color: #F0630F;*/
+    background-color: #FFFFFF;
+}
+.vnts-hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.red-midashi {
+  color: red;
+  font-size: 0.9rem;
+  line-height: 2rem;
+}
+
+.vnts-sub-txt {
+  text-align: center;
+  font-size: 0.9rem;
+  line-height: 2rem;
+}
+}
+
+@media only screen and (max-width: 960px) {
+  .pc {
+    display: none;
+  }
+  .sp {
+    display: block;
+  }
+  .bg {
+    position: relative;
+  }
+  .cv_area {
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+  }
+  .cv_area img {
+    margin: auto;
+  }
+  .multiple_plan {
+    position: absolute;
+    bottom: 12.7%;
+  }
+  .multiple_plan .shiny-btn {
+    width: 90%;
+  }
+  .plan .cv_area:nth-child(1) {
+    bottom: 26%;
+  }
+  .plan .cv_area:nth-child(2) {
+    bottom: 15%;
+  }
+  .sec2 .shiny-btn {
+    border-radius: 50px;
+  }
+  .sec2 .cv_area:nth-child(1) {
+    top: 30%;
+  }
+  .sec2 .cv_area:nth-child(2) {
+    top: 51.3%;
+  }
+  .sec2 .cv_area:nth-child(3) {
+    top: 70.8%;
+  }
+  .sec2 .cv_area:nth-child(4) {
+    top: 91%;
+  }
+  .sec3 .shiny-btn,
+  .sec4 .shiny-btn {
+    border-radius: 50px;
+  }
+  .sec3 .cv_area,
+  .sec4 .cv_area {
+    bottom: 3%;
+  }
+  .sec13 .plan .cv_area:nth-child(1), .sec14 .plan .cv_area:nth-child(1) {
+    bottom: 23%;
+  }
+  .sec13 .plan .cv_area:nth-child(2), .sec14 .plan .cv_area:nth-child(2) {
+    bottom: 12%;
+  }
+  .sec16 .plan .cv_area:nth-child(1) {
+    bottom: 21%;
+  }
+  .sec16 .plan .cv_area:nth-child(2) {
+    bottom: 11%;
+  }
+  .sec17 .plan .cv_area:nth-child(1), .sec18 .plan .cv_area:nth-child(1) {
+    bottom: 22%;
+  }
+  .sec17 .plan .cv_area:nth-child(2), .sec18 .plan .cv_area:nth-child(2) {
+    bottom: 12%;
+  }
+  .sec19 .plan .cv_area:nth-child(1) {
+    bottom: 23%;
+  }
+  .sec19 .plan .cv_area:nth-child(2) {
+    bottom: 13%;
+  }
+  .sec20 .plan .cv_area:nth-child(1) {
+    bottom: 23%;
+  }
+  .sec20 .plan .cv_area:nth-child(2) {
+    bottom: 13%;
+  }
+  .sec21 .plan .cv_area:nth-child(1) {
+    bottom: 30%;
+  }
+  .sec21 .plan .cv_area:nth-child(2) {
+    bottom: 21%;
+  }
+  .sec22 .multiple_plan {
+    bottom: 9.1%;
+  }
+  .sec23 .plan .cv_area:nth-child(1) {
+    bottom: 31%;
+  }
+  .sec23 .plan .cv_area:nth-child(2) {
+    bottom: 18%;
+  }
+  .sec24 .plan .cv_area:nth-child(1) {
+    bottom: 28%;
+  }
+  .sec24 .plan .cv_area:nth-child(2) {
+    bottom: 15%;
+  }
+  .sec25 .plan .cv_area:nth-child(1) {
+    bottom: 30%;
+  }
+  .sec25 .plan .cv_area:nth-child(2) {
+    bottom: 17%;
+  }
+  .sec26 .plan .cv_area:nth-child(1) {
+    bottom: 30%;
+  }
+  .sec26 .plan .cv_area:nth-child(2) {
+    bottom: 18%;
+  }
+  .sec27 .plan .cv_area:nth-child(1) {
+    bottom: 37%;
+  }
+  .sec27 .plan .cv_area:nth-child(2) {
+    bottom: 26%;
+  }
+  .sec30 .plan .cv_area:nth-child(1) {
+    bottom: 53.4%;
+  }
+  .sec30 .plan .cv_area:nth-child(2) {
+    bottom: 3%;
+  }
+  .sec31 .cv_area {
+    bottom: 3.3%;
+  }
+  .qa_inr {
+    position: absolute;
+    bottom: 14%;
+    width: 95%;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+  .qa_inr .cv_area {
+    position: static;
+  }
+  .sec37 {
+    height: 0;
+    padding-top: 32%;
+  }
+  .sec37 .cv_area {
+    bottom: 27%;
+  }
+  .sec38 {
+    margin-bottom: 20%;
+  }
+  .tb-sec4_3 {
+    position: relative;
+  }
+  .tb-sec4_3 .cv_area {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+  }
+  .tb-sec4_4 {
+    position: relative;
+  }
+  .tb-sec4_4 .cv_area {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95%;
+  }
+  .cal-ft-btn {
+  text-align: center;
+  /* margin-bottom: 100px; */
+}
+  .sec_bn1 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+  .shiny-btn, .fin-btn, .fin-btn_top, .fin-btn_top2 {
+    width: 85%;
+    margin: auto;
+  }
+  .fin-btn_top2 .fin_label {
+    right: 0;
+  }
+  footer p {
+    text-align: center;
+  }
+  footer .inr {
+    padding: 10% 3%;
+    display: block;
+    font-size: 3.5vw;
+  }
+  footer .inr .ft_left .logo {
+    padding: 0 0 8% 0;
+  }
+  footer .inr .ft_left .logo img {
+    width: 60%;
+    margin: auto;
+  }
+  footer .inr .ft_left .adress {
+    margin: 0 0 0 0;
+    padding-bottom: 8%;
+    line-height: 2em;
+    border-bottom: solid #fff 0.5px;
+  }
+  footer .inr .ft_right {
+    margin: 0 0 0 0;
+  }
+  footer .inr .ft_right ul {
+    padding: 10% 0 0;
+    display: block;
+    text-align: center;
+  }
+  footer .inr .ft_right ul li {
+    margin-right: auto;
+    padding-bottom: 12%;
+    font-size: 1em;
+  }
+  footer .inr .ft_right ul li:last-child {
+    padding-bottom: 0;
+  }
+  footer .copy {
+    font-size: 1em;
+  }
+}
+
+.r_ttl {
+  background-color: #91000f;
+  color: #fff;
+  text-align: center;
+  max-width: 2000px;
+  margin: auto;
+  padding: 50px;
+  font-size: 50px;
+  letter-spacing: 0.2rem;
+  margin-bottom: 70px;
+}
+
+
+
+@media only screen and (max-width: 960px) {
+  /*カレンダー*/
+  table.vnts-cal {
+    font-size: 0.8rem;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  table.vnts-cal th, table.vnts-cal td {
+    border: solid 1px;
+    padding: 10px;
+  }
+  table.vnts-cal th img {
+    width: 120px;
+    height: 50px;
+  }
+  /*table.vnts-cal tr {
+            text-align: center;
+        }*/
+  th.cal-cat-title {
+    background-color: #add8e6;
+  }
+  .holiday {
+    color: #FF0004;
+  }
+  .vnts-c {
+    background-color: #f5deb3;
+  }
+  h2.vnts-cal-tit {
+    text-align: center;
+    font-size: 1rem;
+  }
+  h1.vnts-cal-tit {
+    text-align: center;
+    font-size: 1.5rem;
+    color: red;
+  }
+  .cal-ft-btn {
+    padding: 20px 0;
+    text-align: center;
+  }
+  input.buy-btn {
+   font-size: 1.5rem;
+  }
+  .buy-btn {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    background-color: #b22222;
+    padding: 20px 20px;
+    color: #FFF;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .buy-btn a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  .buy-btn2 {
+    margin: 0 auto;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    background-color: #b22222;
+    color: #FFF;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  li.step0-tit-sp {
+    font-size: 1rem;
+    line-height: 1.6rem;
+    padding-bottom: 10px;
+}  
+ul.flag-list {
+    list-style: none;
+}
+li.flag-tit {
+    font-size: 1rem;
+    padding-left: 40px;
+    line-height: 1.6em;
+}
+li.flag-newzealand {
+    background: url("../images/flag/newzealand.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-japan {
+    background: url("../images/flag/japan.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-france {
+    background: url("../images/flag/france.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-america {
+    background: url("../images/flag/america.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-australia {
+    background: url("../images/flag/australia.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-germany {
+    background: url("../images/flag/germany.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-chile {
+    background: url("../images/flag/chile.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-argentina {
+    background: url("../images/flag/argentina.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-austria {
+    background: url("../images/flag/austria.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-southafrica {
+    background: url("../images/flag/southafrica.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-italy {
+    background: url("../images/flag/italy.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-spain {
+    background: url("../images/flag/spain.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+.tb-tit {
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding-bottom: 5px;
+}
+    .sp-vol-tit {
+        font-size: 1rem;
+        margin-bottom: 5px;
+    }
+    .sp-vol-tit img {
+        width: 120px;
+    }
+.cal-linethrough {
+    text-decoration: line-through;
+}
+/*まとめ買いチェックボックスサイズ調整*/
+input.ipt-type[type=checkbox] {
+    transform: scale(1.6);
+    margin: 0px 5px 2px 0px;
+}
+.ipn-con {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+/*まとめ買いテーブル調整ここまで*/
+
+/*その他*/
+.caution-con {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+.caution-con img {
+    width: 28px;
+}
+.caution-con2 p {
+    text-align: center;
+    font-size: 1.4rem;
+}
+  /*その他*/
+  .caution-con {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+  .caution-con img {
+    width: 38px;
+}
+  .caution-con2 p {
+    text-align: center;
+    font-size: 1rem;
+}
+  .caution-txt {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+  }
+  .vnts-hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .red-midashi {
+    color: red;
+    font-size: 0.9rem;
+  }
+  .vnts-sub-txt {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  ul.flag-list {
+    margin-bottom: 10px;
+  }
+  .r_ttl {
+    padding: 10%;
+    font-size: 8vw;
+    margin-bottom: 10%;
+  }
+  .cal-ft-btn {
+  text-align: center;
+  /* margin-bottom: 50px; */
+  }
+  .sp-vol-tit-step0 img {
+    width: 40px;
+    padding-bottom: 10px;
+  }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 640px) {
+  .vnts-pc {
+    display: none;
+  }
+  .vnts-sp {
+    display: block;
+    margin-bottom: 10%;
+  }
+  /*カレンダー*/
+  table.vnts-cal {
+    font-size: 0.8rem;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  table.vnts-cal th, table.vnts-cal td {
+    border: solid 1px;
+    padding: 10px;
+  }
+  table.vnts-cal th img {
+    width: 120px;
+    height: 50px;
+  }
+  /*table.vnts-cal tr {
+            text-align: center;
+        }*/
+  th.cal-cat-title {
+    background-color: #add8e6;
+  }
+  .holiday {
+    color: #FF0004;
+  }
+  .vnts-c {
+    background-color: #f5deb3;
+  }
+  h2.vnts-cal-tit {
+    text-align: center;
+    font-size: 1rem;
+  }
+  h1.vnts-cal-tit {
+    text-align: center;
+    font-size: 1.5rem;
+    color: red;
+  }
+  .cal-ft-btn {
+    text-align: center;
+  }
+  input.buy-btn {
+   font-size: 1.2rem;
+  }
+  .buy-btn {
+    margin: 0 auto;
+    width: 80%;
+    text-align: center;
+    background-color: #b22222;
+    padding: 10px 20px;
+    color: #FFF;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .buy-btn a {
+    color: #FFF;
+    text-decoration: none;
+  }
+  .buy-btn2 {
+    margin: 0 auto;
+    width: 80%;
+    height: 50px;
+    text-align: center;
+    background-color: #b22222;
+    color: #FFF;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+ul.flag-list {
+    list-style: none;
+}
+li.flag-tit {
+    font-size: 1rem;
+    padding-left: 40px;
+    line-height: 1.6em;
+}
+li.step0-tit-sp {
+  font-size: 1rem;
+  line-height: 1.6rem;
+  padding-bottom: 10px;
+}  
+li.flag-newzealand {
+    background: url("../images/flag/newzealand.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-japan {
+    background: url("../images/flag/japan.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-france {
+    background: url("../images/flag/france.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-america {
+    background: url("../images/flag/america.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-australia {
+    background: url("../images/flag/australia.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-germany {
+    background: url("../images/flag/germany.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-chile {
+    background: url("../images/flag/chile.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-argentina {
+    background: url("../images/flag/argentina.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-austria {
+    background: url("../images/flag/austria.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-southafrica {
+    background: url("../images/flag/southafrica.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-italy {
+    background: url("../images/flag/italy.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+li.flag-spain {
+    background: url("../images/flag/spain.jpg") left 0px top 3px no-repeat;
+    background-size: 30px auto;
+}
+.tb-tit {
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding-bottom: 5px;
+}
+    .sp-vol-tit img {
+        width: 120px;
+    }
+    .sp-vol-tit-step0 img {
+      width: 40px;
+  }
+.cal-linethrough {
+    text-decoration: line-through;
+}
+/*まとめ買いチェックボックスサイズ調整*/
+input.ipt-type[type=checkbox] {
+    transform: scale(1.6);
+    margin: 0px 5px 2px 0px;
+}
+.ipn-con {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+/*まとめ買いテーブル調整ここまで*/
+
+/*その他*/
+.caution-con {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1.6rem;
+    margin-bottom: 10px;
+}
+.caution-con img {
+    width: 28px;
+}
+.caution-con2 p {
+    text-align: center;
+    font-size: 1.4rem;
+}
+  /*その他*/
+  .caution-con {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+  .caution-con img {
+    width: 38px;
+}
+  .caution-con2 p {
+    text-align: center;
+    font-size: 1rem;
+}
+  .caution-txt {
+    text-align: center;
+    font-size: 0.8rem;
+    padding-bottom: 10px;
+  }
+  .vnts-hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .red-midashi {
+    color: red;
+    font-size: 0.9rem;
+  }
+  .vnts-sub-txt {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  ul.flag-list {
+    margin-bottom: 10px;
+  }
+  .sec_bn1 {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
+}
+}
+/*# sourceMappingURL=style.css.map */
